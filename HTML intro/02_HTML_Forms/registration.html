@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Book a Course</title>
     <style>
         ul {
             list-style: none;
         }
-        
+
         li {
             margin: 5px 0;
         }
-        
+
         label {
             display: inline-block;
             width: 100px;
@@ -18,7 +19,8 @@
         }
     </style>
 </head>
-<body>    
+
+<body>
     <!-- insert form here -->
     <form>
         <fieldset>
@@ -26,7 +28,8 @@
             <ul>
                 <li>
                     <label for="firstName">First Name</label>
-                    <input type="text" name="firstName" id="firstName" placeholder="Your First Name" autofocus required/>
+                    <input type="text" name="firstName" id="firstName" placeholder="Your First Name" autofocus
+                        required />
                 </li>
                 <li>
                     <label for="surname">Surname</label>
@@ -60,7 +63,7 @@
                 </li>
                 <li>
                     <label for="delegates"> Number of Delegates</label>
-                    <input type="number" name="delegates" id="delegates" placeholder="1" required>
+                    <input type="number" name="delegates" id="delegates" placeholder="1" min="1" max="10" required>
                 </li>
                 <li>
                     <label for="date">Date</label>
@@ -75,7 +78,8 @@
                 </li>
             </ul>
         </fieldset>
-        
+
     </form>
 </body>
+
 </html>
